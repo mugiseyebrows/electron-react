@@ -1,0 +1,26 @@
+{
+  "name": "electron-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "start": "electron .",
+    "watch": "nodemon --watch src --ext jsx,js --exec babel src --out-dir dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^7.1.11",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "nodemon": "^2.0.2"
+  }
+}
